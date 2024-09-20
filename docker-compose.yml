@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  hds-deep-hack:
+    build:
+      context: .
+      dockerfile: Dockerfile
