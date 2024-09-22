@@ -12,7 +12,7 @@ async def main() -> None:
     logging.basicConfig(level=logging.INFO)
 
     # Инициализируем бот и диспетчер
-    bot = Bot(token=str(BOT_TOKEN), parse_mode='HTML')
+    bot = Bot(token=str(BOT_TOKEN))
     dp = Dispatcher()
 
     await set_main_menu(bot)
